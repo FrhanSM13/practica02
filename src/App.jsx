@@ -1,9 +1,15 @@
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Hola</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h1 className="mt-2 text-center alert alert-success">
+              hola
+            </h1>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
